@@ -1,0 +1,63 @@
+{% extends 'base.html'%}
+
+
+{% block content %}
+
+	<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark text-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="index">India Tourism</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-link active" aria-current="page" href="index">Home</a>
+			  <a class="nav-link" href="contact">About us</a>
+			  <a class="nav-link" href="accounts/login">login</a>
+			  <a class="nav-link disabled" aria-disabled="true" href="accounts/logout">logout</a>
+			</div>
+		  </div>
+		</div>
+	  </nav>
+
+	 <div class="container">
+    
+	  <div class="jumbotron">
+		<h1 class="display-4">India Tourism</h1>
+		<p class="lead">About the ministry</p>
+		<hr class="my-4">
+		<p>The Ministry of Tourism, is the nodal agency for the formulation of national policies and programs and for the co-ordination of activities of various Central Government Agencies, State Governments/UTs and the Private Sector for the development and promotion of tourism in the country. The Ministry is headed by the Union Minister for Tourism and Ministers of State.
+
+			The administrative head of the Ministry is the Secretary (Tourism). The office of the Director General of Tourism provides executive directions for the implementation of various policies and programs. Directorate General of Tourism has a field formation of 20 offices within the country and one sub-ordinate office/project i.e. Indian Institute of Skiing and Mountaineering (IISM)/ Gulmarg Winter Sports Project. The field offices in India are responsible for providing information service to tourists and to monitor the progress of field projects. The activities of IISM/GWSP have now been revived and various Ski and other courses are being conducted in the J&K valley.</p>
+		<p class="lead">
+		  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		</p>
+	  </div>
+    
+
+	  <div class="row align-items-md-stretch">
+		<div class="col-md-6">
+		  <div class="h-100 p-5 text-bg-dark rounded-3">
+			<h2>Roles and functions of ministry of tourism</h2>
+			<p>The Ministry of Tourism functions as the nodal agency for the development of tourism in the country. It plays a crucial role in coordinating and supplementing the efforts of the State/Union Territory Governments, catalyzing private investment, strengthening promotional and marketing efforts and in providing trained manpower resources.</p>
+			<button class="btn btn-outline-light" type="button">Example button</button>
+		  </div>
+		</div>
+		<div class="col-md-6">
+		  <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+			<h2>India Tourism Development Corporation (ITDC)</h2>
+			<p>ITDC came into existence in October 1966 and has been the prime mover in the progressive development, promotion and expansion of tourism in the country. Broadly, the main objectives of the Corporation are:
+				
+				To construct, take over and manage existing hotels and market hotels, Beach Resorts, Travellers’ Lodges/Restaurants;
+				To provide transport, entertainment, shopping and conventional services;
+				To produce, distribute, tourist publicity material;
+				To render consultancy-cum-managerial services in India and abroad;
+				To carry on the business as Full-Fledged Money Changers (FFMC), restricted money changers etc;</p>
+			<button class="btn btn-outline-secondary" type="button">Example button</button>
+		  </div>
+		</div>
+	  </div>
+
+    </div> 
+	    
+{% endblock %}
